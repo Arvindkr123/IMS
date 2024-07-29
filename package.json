@@ -1,0 +1,17 @@
+{
+  "name": "metronic_react_v8.2.0_demo1",
+  "version": "1.0.0",
+  "description": "- The React version can be downloaded online from [Metronic Downloads](//devs.keenthemes.com/metronic)",
+  "main": "index.js",
+  "scripts": {
+    "backend": "npm run dev --prefix backend",
+    "demo1": "npm start --prefix demo1",
+    "dev": "concurrently \"npm run backend\" \"npm run demo1\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
